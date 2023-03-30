@@ -2,6 +2,7 @@ package com.ChinaMarket.Ecommerce.Model;
 
 import com.ChinaMarket.Ecommerce.Enum.CardType;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -12,6 +13,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 @Entity
 @Table(name = "card")
 public class Card {
